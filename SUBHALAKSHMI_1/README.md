@@ -1,4 +1,4 @@
-#Task 1: Exploratory Data Analysis (EDA) on Retail Sales Data
+**Task 1: Exploratory Data Analysis (EDA) on Retail Sales Data**
 
 **Overview**
 
@@ -89,14 +89,6 @@ Data Cleaning and Preparation
 2. Open the project in Jupyter Notebook or a Python environment
 3. Run the notebook or script to view the analysis and visualizations
 
-**Project Structure**
-
-Task1_EDA/
-│
-├── data/
-├── eda_analysis.ipynb
-├── visuals/
-└── README.md
 
 **Learning Outcomes**
 

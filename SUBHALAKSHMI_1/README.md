@@ -1,102 +1,134 @@
-**Task 1: Exploratory Data Analysis (EDA) on Retail Sales Data**
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDA on Retail Sales Data</title><style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f4f4f4;
+    }
 
-**Overview**
+    header {
+        background-color: #2e7d32;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
 
-This project focuses on performing Exploratory Data Analysis (EDA) on a retail sales dataset to identify patterns, trends, and useful insights. The analysis helps in understanding customer behavior, product performance, and overall sales trends, enabling better decision-making.
+    section {
+        padding: 20px;
+    }
 
-**Objectives**
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        background: white;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
 
-- Clean and preprocess the dataset
-- Analyze sales trends over time
-- Understand customer purchasing behavior
-- Identify top-performing products and categories
-- Generate actionable business insights
+    h2 {
+        color: #2e7d32;
+        margin-top: 20px;
+    }
 
-**Dataset**
+    p {
+        line-height: 1.6;
+    }
 
-The dataset contains the following information:
+    ul {
+        line-height: 1.8;
+    }
 
-- Order details
-- Product categories
-- Customer information
-- Sales amount
-- Order dates
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 12px 25px;
+        background-color: #2e7d32;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+    }
 
-**Technologies Used**
+    .btn:hover {
+        background-color: #1b5e20;
+    }
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+    footer {
+        text-align: center;
+        padding: 15px;
+        background-color: #ddd;
+        margin-top: 20px;
+    }
+</style>
 
-**Analysis Performed**
+</head><body><header>
+    <h1>Exploratory Data Analysis (EDA) on Retail Sales Data</h1>
+    <p>Oasis Infobyte Internship - Task 1</p>
+</header><section>
+<div class="container"><h2>Project Overview</h2>
+<p>
+    This project focuses on performing Exploratory Data Analysis (EDA) on retail sales data to identify
+    patterns, trends, and insights. The analysis helps businesses understand customer behavior,
+    product performance, and overall sales trends.
+</p>
 
-Data Cleaning and Preparation
+<h2>Objectives</h2>
+<ul>
+    <li>Data cleaning and preprocessing</li>
+    <li>Sales trend analysis</li>
+    <li>Customer behavior analysis</li>
+    <li>Product performance evaluation</li>
+</ul>
 
-- Loaded the dataset using Pandas
-- Handled missing values
-- Removed duplicate records
-- Converted data types (such as date columns)
+<h2>Technologies Used</h2>
+<ul>
+    <li>Python</li>
+    <li>Pandas</li>
+    <li>NumPy</li>
+    <li>Matplotlib</li>
+    <li>Seaborn</li>
+</ul>
 
-**Descriptive Statistics**
+<h2>Key Analysis</h2>
+<ul>
+    <li>Descriptive statistics (mean, median, standard deviation)</li>
+    <li>Time series analysis of sales</li>
+    <li>Customer segmentation</li>
+    <li>Product category performance</li>
+</ul>
 
-- Calculated mean, median, and standard deviation
-- Generated summary statistics for numerical features
+<h2>Key Insights</h2>
+<ul>
+    <li>Top-performing product categories identified</li>
+    <li>Seasonal sales trends observed</li>
+    <li>High-value customers recognized</li>
+    <li>Low-performing products detected</li>
+</ul>
 
-**Time Series Analysis**
+<h2>Recommendations</h2>
+<ul>
+    <li>Focus on high-demand products</li>
+    <li>Target loyal customers with offers</li>
+    <li>Improve marketing during low-sales periods</li>
+    <li>Optimize inventory management</li>
+</ul>
 
-- Analyzed sales trends over time
-- Examined monthly and yearly patterns
-- Identified peak sales periods
+<h2>View Dashboard</h2>
+<p>
+    Click the button below to view the complete dashboard:
+</p>
 
-**Customer Analysis**
+<!-- Replace with your actual dashboard link -->
+<a href="https://your-dashboard-link.com" target="_blank" class="btn">
+    View Dashboard
+</a>
 
-- Performed customer segmentation
-- Analyzed purchase frequency
-- Identified high-value customers
-
-**Product Analysis**
-
-- Determined best-selling products
-- Evaluated category-wise performance
-- Measured revenue contribution by products
-
-**Data Visualization**
-
-- Used bar charts for category comparisons
-- Created line plots for trend analysis
-- Applied heatmaps for correlation analysis
-
-**Key Insights**
-
-- Certain product categories contribute significantly to total revenue
-- Sales exhibit seasonal patterns
-- A small group of customers generates a large portion of sales
-- Some products show consistently low performance
-
-**Recommendations**
-
-- Focus on high-performing products to maximize revenue
-- Target loyal customers with personalized marketing strategies
-- Improve marketing efforts during low-sales periods
-- Optimize inventory management based on demand trends
-
-**How to Run the Project**
-
-1. Install required libraries:
-   pip install pandas numpy matplotlib seaborn
-2. Open the project in Jupyter Notebook or a Python environment
-3. Run the notebook or script to view the analysis and visualizations
-
-
-**Learning Outcomes**
-
-- Developed skills in data cleaning and preprocessing
-- Improved data visualization techniques
-- Gained experience in analyzing business data
-- Learned how to extract insights from raw datasets
-
-**Conclusion**
-
-This project demonstrates how exploratory data analysis can transform raw retail data into meaningful insights. These insights can help organizations improve decision-making, optimize operations, and better understand customer behavior.
+</div>
+</section><footer>
+    <p>© 2026 Oasis Infobyte Internship Project</p>
+</footer></body>
+</html>

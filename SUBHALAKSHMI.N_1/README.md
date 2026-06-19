@@ -93,4 +93,5 @@ The interactive `.pbix` canvas provides cross-filtering and granular slicing cap
 │   └── sales_analysis_eda.ipynb     # Python EDA and data cleaning script
 ├── dashboard/
 │   └── retail_analytics_v1.pbix     # Compiled Power BI dashboard
+├── output
 └── README.md                        # Project documentation

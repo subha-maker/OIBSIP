@@ -87,11 +87,11 @@ The interactive `.pbix` canvas provides cross-filtering and granular slicing cap
 
 ## 📂 Repository File Structure
 ```text
+├── dashboard/
+│   └── retail_analytics_v1.pbix     # Compiled Power BI dashboard
 ├── data/
 │   └── retail_sales_dataset.csv     # Raw dataset
 ├── notebooks/
 │   └── sales_analysis_eda.ipynb     # Python EDA and data cleaning script
-├── dashboard/
-│   └── retail_analytics_v1.pbix     # Compiled Power BI dashboard
 ├── output
 └── README.md                        # Project documentation

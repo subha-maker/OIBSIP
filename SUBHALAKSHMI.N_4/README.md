@@ -1,29 +1,42 @@
-# Tweet Sentiment Analysis Platform 🚀
+# Autonomous Text Sentiment Intelligence Platform 🚀
 
-[![Python Version](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10-blue.svg)](https://www.python.org/)
-[![ML Framework](https://img.shields.io/badge/scikit--learn-v1.0+-orange.svg)](https://scikit-learn.org/stable/)
-[![Visualizations](https://img.shields.io/badge/Plotly-Interactive-brightgreen.svg)](https://plotly.com/python/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Language-Python%203.9+-blue.svg)](https://www.python.org/)
+[![NLP Engine](https://img.shields.io/badge/NLP-TF--IDF%20%7C%20N--Grams-orange.svg)](https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction)
+[![Visual Interface](https://img.shields.io/badge/UI-Plotly%20Interactive-green.svg)](https://plotly.com/)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
-An end-to-end Machine Learning and Natural Language Processing (NLP) pipeline designed to classify the emotional tone of text data. This platform automatically categorizes unstructured textual records (such as tweets, feedback, or reviews) into **Positive**, **Negative**, or **Neutral** buckets, providing valuable insights into public opinion and social media trends.
-
----
-
-## 🎯 Project Objective
-The primary goal is to build a robust statistical model capable of interpreting human language contexts. By exploring class distributions, engineering specific text-length characteristics, and transforming textual strings into advanced numerical feature maps using TF-IDF vectorization, the system achieves a high-precision classification rate.
+An advanced engineering solution designed to decode, evaluate, and classify the emotional contexts hidden within unstructured text datasets. By processing raw linguistic strings, this system isolates text characteristics and runs them through a machine learning classifier to bucket data into **Positive**, **Negative**, or **Neutral** public opinion metrics.
 
 ---
 
-## 🧠 Key Concepts & Challenges Covered
+## 🎯 System Objectives & Business Value
+Modern social media and feedback streams produce high-volume text that is impossible to monitor manually. This platform acts as an automated analytics layer to:
+* **Track Public Sentiment:** Understand consumer attitudes dynamically across different social topics.
+* **Streamline Brand Reputation:** Instantly identify public backlash or positive milestones without manual review.
+* **Inform Strategic Decisions:** Convert qualitative conversations into quantifiable, data-driven graphs for business analysts.
 
-- **[Sentiment Analysis](https://en.wikipedia.org/wiki/Sentiment_analysis):** Categorizing text data into granular, descriptive structural bounds (Positive: `1`, Neutral: `0`, Negative: `-1`).
-- **[Natural Language Processing (NLP)](https://en.wikipedia.org/wiki/Natural_language_processing):** Designing text processing mechanisms using sub-string tokenization and phrase mapping.
-- **[Feature Engineering](https://en.wikipedia.org/wiki/Feature_engineering):** Crafting structural metadata features (`text_length` / word counts) and multi-term textual relevance weights ([TF-IDF Unigrams & Bigrams](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)).
-- **[Machine Learning Architecture](https://en.wikipedia.org/wiki/Machine_learning):** Implementing a multinomial [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) classifier optimized to scale efficiently across large-scale databases.
-- **Dynamic Data Visualization:** Constructing interactive, mouse-hover responsive analytics charts using [Plotly Express](https://plotly.com/python/plotly-express/) to visualize data behaviors natively.
+---
+
+## 🧠 Core Engineering Architecture
+
+### 1. Linguistic Processing (NLP Pipeline)
+Since textual inputs cannot be interpreted by computational algorithms directly, the system passes strings through an automated NLP track. Words are scrubbed of noise, tokenized, and structured into relative semantic components.
+
+### 2. Contextual Feature Engineering
+The pipeline scales model comprehension using two custom feature extractors:
+* **Structural Word Metrics:** Engineering a text-length evaluation marker (`text_length`) to measure sentence patterns and word frequencies across varying mood categories.
+* **Statistical Relevance Matrices (TF-IDF):** Extracting token hierarchies via Term Frequency-Inverse Document Frequency using combined single words (unigrams) and word pairs (bigrams). This suppresses common filler words while emphasizing highly specialized sentiment indicators.
+
+### 3. Predictive Optimization Engine
+A multi-class **Logistic Regression** classifier is trained over the numeric feature matrices. Optimized with multinomial loss equations, it delivers an optimal trade-off between computational training speed and text classification stability.
 
 ---
 
 ## 🏗️ Technical Pipeline Overview
 
-The project follows a standard text-processing lifecycle to convert raw, unstructured sentences into trained mathematical models:
+The structural lifecycle maps text transformations from its raw form into visual reports:
+
+```text
+[Raw Unstructured Text] ➔ [Data Sanitization / Null Scrubbing] ➔ [Token Word Metrics Generation]
+                                                                                │
+[Hover-Responsive Graphics] ◀ [Predictive ML Classifier] ◀ [TF-IDF Feature Representation Map]

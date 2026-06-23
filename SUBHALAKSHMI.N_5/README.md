@@ -10,12 +10,6 @@ This repository features a clean, cell-by-cell notebook implementation driven by
 
 ---
 
-## 🔗 Live Links & Project Access
-* **Interactive Notebook:** [![Open In Colab]((https://github.com/subha-maker/OIBSIP/blob/main/SUBHALAKSHMI.N_5/notebook/HOUSE_PRICES.ipynb)) 
-* **Dataset Source:** [Housing Dataset Archive](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/blob/main/Housing.csv) *(Update with your repository path)*
-
----
-
 ## 📌 Project Overview & Learning Objectives
 The primary objective of this project is to model the linear relationship between a continuous dependent target (`price`) and independent structural data arrays.
 

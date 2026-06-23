@@ -11,7 +11,7 @@ This repository features a clean, cell-by-cell notebook implementation driven by
 ---
 
 ## 🔗 Live Links & Project Access
-* **Interactive Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_GOOGLE_COLAB_LINK_HERE) *(Replace this text with your actual Google Colab sharing link)*
+* **Interactive Notebook:** [![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](YOUR_GOOGLE_COLAB_LINK_HERE](https://github.com/subha-maker/OIBSIP/blob/main/SUBHALAKSHMI.N_5/notebook/HOUSE_PRICES.ipynb)) 
 * **Dataset Source:** [Housing Dataset Archive](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/blob/main/Housing.csv) *(Update with your repository path)*
 
 ---

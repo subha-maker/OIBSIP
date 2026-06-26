@@ -34,7 +34,7 @@ Through automated statistical validation, the models achieved the following perf
 
 | Classifier Model | Test Accuracy Profile | Project Status |
 | :--- | :--- | :--- |
-| **Random Forest** | **~88% - 91%** | 🏆 **Best Performer Selected** |
+| **Random Forest** | **~88% - 91%** | **Best Performer Selected** |
 | **Support Vector Classifier (SVC)** | ~85% - 88% | Strong Runner-Up |
 | **Stochastic Gradient Descent (SGD)** | ~75% - 81% | Baseline Model |
 
